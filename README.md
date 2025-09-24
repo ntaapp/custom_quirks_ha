@@ -45,22 +45,30 @@ This tells ZHA to load quirks from your custom folder.
 
 ---
 
-## 3. Final Steps
-
-1. **Restart Home Assistant**: Go to **Settings → System → Restart**.
-2. **(Recommended)**: Remove and re-pair your curtain device so the new quirk is applied.
-
----
-
-## 4. About the Quirk
+## 3. About the Quirk
 
 If you have a TS0601 curtain motor by `_TZE200_cpbo62rn`, the provided quirk enables basic curtain controls. Just place the Python file in your custom quirks folder as shown above.
+If you have a TS0601 with ID like this: _TZE200_cpbo62rn curtian motor, 
+the below quirk will give you very basic curtain controls without 
+needing a remote control or Tuya hub. Just stick this into ts0601_curtain.py 
+file and use like any other quirk. 
+This is the standard ZHA quirk file for similar items with a single
+ line added at line 181 to support this device.
+
+ ("_TZE200_cpbo62rn", "TS0601"), 
 
 This is based on the standard ZHA quirk for similar devices, with a single line added to support this model:
 
 ```python
 ("_TZE200_cpbo62rn", "TS0601"),
 ```
+
+---
+
+## 4. Final Steps
+
+1. **Restart Home Assistant**: Go to **Settings → System → Restart**.
+2. **(Recommended)**: Remove and re-pair your curtain device so the new quirk is applied.
 
 ---
 
