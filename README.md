@@ -66,7 +66,11 @@ This is based on the standard ZHA quirk for similar devices, with a single line 
 
 The ts1201.py Quirk is for Supporting IR Blaster of Tuya IR Battery TS1201, you also need to add your device id similar to Curtain above
 see this video to learn command https://www.youtube.com/watch?v=d1kkJpolE1w&t=3s
-<img width="1301" height="880" alt="image" src="https://github.com/user-attachments/assets/9ed3b5bf-5f52-4522-ab26-2d90ce87f071" />
+<img width="775" height="639" alt="image" src="https://github.com/user-attachments/assets/9c20ca8f-2dd3-47e2-87ac-a0423376c91b" />
+<img width="959" height="788" alt="image" src="https://github.com/user-attachments/assets/bf095602-c2f2-46f1-a1f3-9908fdd88278" />
+<img width="941" height="773" alt="image" src="https://github.com/user-attachments/assets/2494bcc8-7af9-4d47-9a8d-5e3b529b1e75" />
+
+
 
 ---
 
