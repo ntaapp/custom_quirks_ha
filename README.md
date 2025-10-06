@@ -1,7 +1,7 @@
 
-# Custom ZHA Quirks for TS0601 Curtain Motor
+# Custom ZHA Quirks for TS0601 Curtain Motor and ts1201 IR blaster from Tuya
 
-This guide helps you set up a custom ZHA quirk for the TS0601 curtain motor (e.g., _TZE200_cpbo62rn) in Home Assistant, allowing basic curtain control without a Tuya hub or remote.
+This guide helps you set up a custom ZHA quirk for the TS0601 curtain motor (e.g., _TZE200_cpbo62rn)and ts1201 IR blaster in Home Assistant, allowing basic curtain control and IR blaster without a Tuya hub or remote.
 
 ---
 
@@ -13,6 +13,7 @@ Ensure your files are organized as follows:
 /config/
 	└── custom_zha_quirks/
 				└── ts0601_curtain.py
+                    ts1201.py
 ```
 
 ---
@@ -47,7 +48,7 @@ This tells ZHA to load quirks from your custom folder.
 
 ## 3. About the Quirk
 
-If you have a TS0601 curtain motor by `_TZE200_cpbo62rn`, the provided quirk enables basic curtain controls. Just place the Python file in your custom quirks folder as shown above.
+If you have TS0601 curtain motor and ts1201 IR blaster by `_TZE200_cpbo62rn`, the provided quirk enables basic curtain controls. Just place the Python files in your custom quirks folder as shown above.
 If you have a TS0601 with ID like this: _TZE200_cpbo62rn curtian motor, 
 the below quirk will give you very basic curtain controls without 
 needing a remote control or Tuya hub. Just stick this into ts0601_curtain.py 
